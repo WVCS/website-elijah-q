@@ -1,3 +1,46 @@
-body {
+@charset "utf-8";
 
+body {
+	background-color: antiquewhite
+		
+}
+
+img {
+	width: 65%;
+}
+
+img:hover {
+	border: dotted 5px blue;
+	width: 100%;
+	border-radius: 100%;
+}
+
+h2{ 
+	color: blue;
+font-family: "Papyrus", Fantasty;
+	text-shadow: 2px 2px lightblue;
+	text-decoration-line: underline;
+  text-decoration-color: steelblue;
+text-decoration-style: double;
+	 text-decoration-thickness: 3px
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
 }
